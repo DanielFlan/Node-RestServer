@@ -41,7 +41,7 @@ class Server {
 
     listen () {
         this.app.listen(port, () => {
-            console.log('Servidor activo en el puerto: ', port);
+            console.log(`-Servidor activo en el puerto: ${port}-`.bgBlack.italic.bold);
         })
     }
 }
